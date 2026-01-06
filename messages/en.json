@@ -1,0 +1,57 @@
+{
+  "stalker": "Stalker",
+  "stalkerfy": "Stalkerfy",
+  "slogan": "Slogan",
+  "navbar": {
+    "home": "home",
+    "about-us": "About Us",
+    "contact-us": "Contact Us",
+    "blogs": "Blogs",
+    "ai-tech": "AI Tech"
+  },
+  "footer": {
+    "footer-description": "footer description!!!!!!!!! !!!!!!!!!! footer description!!!!!!! footer description!!!!!!!footer description!!!!!!!footer description!!!!!!!",
+    "quick-links-title": "Quick Access",
+    "contact-us-title": "Contact Us",
+    "copy-right": "All rights reserved",
+    "designed-by": "Designed & Developed By Stalker"
+  },
+  "metadata": {
+    "title": "Stalker",
+    "description": "english desc"
+  },
+  "contact-us": {
+    "title": "Contact us title...",
+    "description": "Contact us description..",
+    "labels": {
+      "name": "Your Name",
+      "email": "Your email",
+      "message": "Your Message"
+    },
+    "placeholders": {
+      "name": "Insert Your Name",
+      "email": "Insert Your email",
+      "message": "What you want to say?"
+    },
+    "btn-label": "Send",
+    "btn-loading": "Sending..."
+  },
+  "about-us": {
+    "sub-title": "about us sub title",
+    "title": "about us title",
+    "description": " I'm a skilled software developer with experience in TypeScript and         JavaScript, and expertise in frameworks like React, Node.js, and         Three.js. I'm a quick learner and collaborate closely with clients to         create efficient, scalable, and user-friendly solutions that solve         real-world problems. Let's work together to bring your ideas to life!"
+  },
+  "experiences": {
+    "title": "EXPERIENCES TITLE",
+    "sub-title": "EXPERIENCES SUB TITLE"
+  },
+  "works-list": {
+    "sub-title": "works list sub title",
+    "title": "works list title",
+    "description": "Following projects showcases my skills and experience through          real-world examples of my work. Each project is briefly described withlinks to code repositories and live demos in it. It reflects my           ability to solve complex problems, work with different technologies,          and manage projects effectively."
+  },
+  "testimonials": {
+    "title": "What others say",
+    "description": " Testimonials description...."
+  }
+}

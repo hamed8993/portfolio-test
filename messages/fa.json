@@ -1,0 +1,58 @@
+{
+  "stalker": "استاکر",
+  "stalkerfy": "استاکرفای!",
+  "slogan": "شعار",
+  "navbar": {
+    "home": "خانه",
+    "about-us": "در باره ما",
+    "contact-us": "ارتباط با ما",
+    "blogs": "مقالات",
+    "ai-tech": "دنیای AI"
+  },
+  "footer": {
+    "footer-description": "ما یک تیم متخصص در طراحی و توسعه نرم‌افزار هستیم که با تکیه بر تجربه و دانش روز، پروژه‌های متنوعی در حوزه وب‌سایت، اپلیکیشن موبایل و پلتفرم‌های تخصصی انجام داده‌ایم. استفاده از فناوری‌های مدرن مانند Next.js، Nest.js، TypeScript، Laravel و MongoDB باعث شده راهکارهایی مقیاس‌پذیر، سریع و امن ارائه دهیم.",
+    "quick-links-title": "دسترسی سریع",
+    "contact-us-title": "تماس با ما",
+    "copy-right": "تمام حقوق محفوظ است",
+    "designed-by": "طراحی و توسعه توسط استاکر"
+  },
+  "metadata": {
+    "title": "استاکر",
+    "description": "توضیحات فارسی"
+  },
+  "contact-us": {
+    "title": "Contact us title...",
+    "description": "Contact us description..",
+    "labels": {
+      "name": "نام",
+      "email": "آدرس ایمیل",
+      "message": "متن پیام"
+    },
+    "placeholders": {
+      "name": "نام خود را وارد کنید",
+      "email": "آدرس ایمیل خود را وارد کنید",
+      "message": "پیام خود را وارد کنید"
+    },
+    "btn-label": "ارسال",
+    "btn-loading": "در حال ارسال..."
+  },
+  "about-us": {
+    "sub-title": "about us sub title",
+    "title": "about us title",
+
+    "description": " I'm a skilled software developer with experience in TypeScript and         JavaScript, and expertise in frameworks like React, Node.js, and         Three.js. I'm a quick learner and collaborate closely with clients to         create efficient, scalable, and user-friendly solutions that solve         real-world problems. Let's work together to bring your ideas to life!"
+  },
+  "experiences": {
+    "title": "تایتل تجربیات",
+    "sub-title": "ساب تایتل تجربیات "
+  },
+  "works-list": {
+    "sub-title": "ساب تایتل کارها",
+    "title": "تایتل کارا",
+    "description": "توضیحات کارها..... "
+  },
+  "testimonials": {
+    "title": "نظرات مشتریان و کاربران",
+    "description": "توضیحات تستمونیال ...."
+  }
+}
