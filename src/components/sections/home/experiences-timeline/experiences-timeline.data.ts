@@ -1,5 +1,6 @@
+import { ExperienceType } from "@/src/types/experience.type";
 import stalkerLogo from "./../../../../../public/assets/images/logo.png";
-export const experiences = [
+export const experiences:ExperienceType[] = [
   {
     title: "React.js Developer",
     company_name: "Starbucks",

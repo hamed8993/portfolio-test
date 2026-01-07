@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { routing } from "../i18n/routing";
+import { LocaleType, routing } from "../i18n/routing";
 
 export const authMiddleware = async (request: NextRequest) => {
   const { nextUrl: requestUrl, cookies } = request;
@@ -7,8 +7,8 @@ export const authMiddleware = async (request: NextRequest) => {
   //baseUrl => http://localhost:3000
   //requestUrl.pathname => /fa/auth
 
-  const urlLocale = baseUrl.split("/")[1];
-  const lng = routing.locales.includes(urlLocale)
+  const urlLocale: LocaleType | string = baseUrl.split("/")[1];
+  const lng = routing.locales.includes(urlLocale as LocaleType)
     ? urlLocale
     : routing.defaultLocale;
 

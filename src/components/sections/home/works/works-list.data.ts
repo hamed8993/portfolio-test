@@ -1,8 +1,9 @@
+import { ProjectType } from "@/src/types/work.type";
 import carrent from "./../../../../../public/assets/images/carrent.png";
 import jobit from "./../../../../../public/assets/images/jobit.png";
 import tripguide from "./../../../../../public/assets/images/tripguide.png";
 
-export const projects = [
+export const projects:ProjectType[] = [
   {
     name: "Car Rent",
     description:

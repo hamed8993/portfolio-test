@@ -9,3 +9,5 @@ export const routing = defineRouting({
   localeDetection: false, //??
   // localePrefix: "always", //default
 });
+
+export type LocaleType = "en" | "fa" | "tr" | "ar";

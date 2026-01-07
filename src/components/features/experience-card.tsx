@@ -1,9 +1,14 @@
 "use client";
+import { ExperienceType } from "@/src/types/experience.type";
 import { setLangDir } from "@/src/utils/set-lang-dir";
 import { useLocale } from "next-intl";
 import { VerticalTimelineElement } from "react-vertical-timeline-component";
 
-export default function ExperienceCard({ experience }) {
+export default function ExperienceCard({
+  experience,
+}: {
+  experience: ExperienceType;
+}) {
   const locale = useLocale();
 
   return (

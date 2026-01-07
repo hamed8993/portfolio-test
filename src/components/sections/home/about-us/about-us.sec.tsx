@@ -21,7 +21,7 @@ function AboutUsSec() {
       </motion.div>
 
       <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
+        variants={fadeIn("up", "spring", 0.1, 1)}
         className="mt-4 text-neutral-300 text-[17px] max-w-3xl leading-[30px]"
       >
         {t("about-us.description")}

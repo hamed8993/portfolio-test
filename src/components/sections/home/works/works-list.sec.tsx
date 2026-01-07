@@ -22,7 +22,7 @@ const WorksListSec = () => {
 
       <div className="w-full flex">
         <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
+          variants={fadeIn("down", "tween", 0.2, 1)}
           className="mt-3 text-neutral-300 text-[17px] max-w-3xl leading-[30px]"
         >
           {t("works-list.description")}
@@ -31,7 +31,11 @@ const WorksListSec = () => {
 
       <div className="mt-20 flex flex-wrap gap-7">
         {projects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
+          <ProjectCard
+            key={`project-${index}`}
+            index={index}
+            project={project}
+          />
         ))}
       </div>
     </>

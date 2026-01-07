@@ -7,7 +7,7 @@ import CanvasLoader from "./loader";
 
 import { Environment } from "@react-three/drei";
 
-const Computers = ({ isMobile }) => {
+const Computers = ({ isMobile }: { isMobile: boolean }) => {
   const computer = useGLTF("./assets/3d-assets/desktop_pc/scene.glb");
 
   return (
@@ -43,7 +43,7 @@ const ComputerDeskCanvas = () => {
     setIsMobile(mediaQuery.matches);
 
     // Define a callback function to handle changes to the media query
-    const handleMediaQueryChange = (event) => {
+    const handleMediaQueryChange = (event: MediaQueryListEvent) => {
       setIsMobile(event.matches);
     };
 

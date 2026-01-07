@@ -15,7 +15,7 @@ function TestimonialsSec() {
       <div
         className={`container bg-primary-600 rounded-2xl sm:py-16 py-10 min-h-[300px]`}
       >
-        <motion.div variants={textVariant()}>
+        <motion.div variants={textVariant(3)}>
           <p className="sm:text-[18px] text-[14px] text-neutral-300 uppercase tracking-wider">
             {t("testimonials.title")}
           </p>
@@ -29,7 +29,7 @@ function TestimonialsSec() {
           <TestimonialCard
             key={testimonial.name}
             index={index}
-            {...testimonial}
+            testimonialCard={testimonial}
           />
         ))}
       </div>

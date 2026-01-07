@@ -1,4 +1,6 @@
-export const testimonials = [
+import { TestimonialCardType } from "@/src/types/testimonial-card.type";
+
+export const testimonials: TestimonialCardType[] = [
   {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
